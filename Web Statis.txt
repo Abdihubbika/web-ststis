@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Statis Multimedia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .media {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    img, video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    audio, video {
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Selamat Datang di Web Statis Multimedia</h1>
+  <p style="text-align:center;">Website ini menampilkan gambar, audio, dan video sebagai bagian dari media statis.</p>
+
+  <div class="media">
+    <!-- Gambar -->
+    <div>
+      <h2>Gambar</h2>
+      <img src="th.jpg" alt="Gambar Arena breakout" width="600">
+    </div>
+
+    <!-- Audio -->
+    <div>
+      <h2>Audio</h2>
+      <audio controls>
+        <source src="Iframe Arena Breakout _ Renoir Edit #edit #arenabreakouts6 #arenabreakout #arenabreakoutglobal #phonk [CXcq_hzH3ZM].mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <!-- Video -->
+    <div>
+      <h2>Video</h2>
+      <video controls width="600">
+        <source src="video.mp4" type="video/mp4">
+        Browser Anda tidak mendukung pemutar video.
+      </video>
+    </div>
+  </div>
+
+</body>
+</html>
